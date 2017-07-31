@@ -17,7 +17,7 @@ export class AppComponent {
     const countDownDate = new Date("Aug 7, 2017 08:30:00").getTime();
 
     // Update the count down every 1 second
-    setTimeout(() => {
+    setInterval(() => {
 
       // Get todays and difference between dates
       const now = new Date().getTime();
