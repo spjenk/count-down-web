@@ -14,7 +14,7 @@ export class AppComponent {
 
   constructor() {
 
-    const countDownDate = new Date("Aug 7, 2017 08:30:00").getTime();
+    const countDownDate = new Date("Feb 19, 2018 08:30:00").getTime();
 
     // Update the count down every 1 second
     setInterval(() => {
